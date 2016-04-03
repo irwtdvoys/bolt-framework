@@ -54,16 +54,16 @@
         },
         {
             "name": "cruxoft/bolt-core",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-core.git",
-                "reference": "9e8b4c1040cbb1b3a3ee97739078c7b5988373d7"
+                "reference": "ad761a3c512dfdf526bd310612ca1ae16d11d77e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-core/zipball/9e8b4c1040cbb1b3a3ee97739078c7b5988373d7",
-                "reference": "9e8b4c1040cbb1b3a3ee97739078c7b5988373d7",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-core/zipball/ad761a3c512dfdf526bd310612ca1ae16d11d77e",
+                "reference": "ad761a3c512dfdf526bd310612ca1ae16d11d77e",
                 "shasum": ""
             },
             "require": {
@@ -79,33 +79,37 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
             "authors": [
                 {
-                    "name": "Steve Adams"
+                    "name": "Steve Adams",
+                    "role": "Developer"
                 }
             ],
-            "description": "PHP Framework",
+            "description": "Core elements for the Bolt Framework",
             "keywords": [
                 "framework"
             ],
-            "time": "2016-04-03 19:39:49"
+            "time": "2016-04-03 21:29:10"
         },
         {
             "name": "cruxoft/bolt-geojson",
-            "version": "v0.1.1",
+            "version": "v0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-geojson.git",
-                "reference": "30b6bfb643af4656627ca49097a9b362dc8ff46b"
+                "reference": "05bfea4654e3273ad2859c27c9628725d14a582f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-geojson/zipball/30b6bfb643af4656627ca49097a9b362dc8ff46b",
-                "reference": "30b6bfb643af4656627ca49097a9b362dc8ff46b",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-geojson/zipball/05bfea4654e3273ad2859c27c9628725d14a582f",
+                "reference": "05bfea4654e3273ad2859c27c9628725d14a582f",
                 "shasum": ""
             },
             "require": {
-                "cruxoft/bolt-core": "v0.1.0",
+                "cruxoft/bolt-core": "v0.1.*",
                 "php": ">=5.6"
             },
             "type": "library",
@@ -115,9 +119,13 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
             "authors": [
                 {
-                    "name": "Steve Adams"
+                    "name": "Steve Adams",
+                    "role": "Developer"
                 }
             ],
             "description": "GeoJSON module for Bolt",
@@ -125,7 +133,7 @@
                 "bolt",
                 "geojson"
             ],
-            "time": "2016-04-03 20:38:10"
+            "time": "2016-04-03 21:58:08"
         }
     ],
     "packages-dev": [],
