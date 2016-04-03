@@ -1,20 +1,28 @@
 {
-    "name": "cruxoft/bolt-framework",
-    "description": "The Bolt Framework",
-    "keywords": [
-        "framework",
-	"bolt"
-    ],
-    "type": "project",
-    "require": {
-        "php": ">=5.6",
-	"cruxoft/bolt-api": "v0.1.*",
-	"cruxoft/bolt-geojson": "v0.1.*"
-    },
-    "autoload": {
-        "psr-4": {
-            "App\\": "src/"
-        }
-    }
+	"name": "cruxoft/bolt",
+	"description": "The Bolt Framework for PHP",
+	"license": "Apache-2.0",
+	"keywords": [
+		"framework",
+		"bolt",
+		"php"
+	],
+	"type": "project",
+	"authors": [
+		{
+			"name": "Steve Adams",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.6",
+		"cruxoft/bolt-api": "v0.1.*",
+		"cruxoft/bolt-geojson": "v0.1.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "src/"
+		}
+	}
 }
 
