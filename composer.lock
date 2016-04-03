@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c19562d933347313875d0f42888193bc",
-    "content-hash": "64222671ef7c68e155b74773a14bb37c",
+    "hash": "ad3768d0b92c8729bc9ce394dda76f8a",
+    "content-hash": "3eae47caf2a71116769ac46e54a0e7eb",
     "packages": [
         {
             "name": "cruxoft/bolt-api",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-api.git",
-                "reference": "ec6535011ef28de84d779084c829361ec2c04401"
+                "reference": "269e9e24504b4f06d6645af58a564840ece30213"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-api/zipball/ec6535011ef28de84d779084c829361ec2c04401",
-                "reference": "ec6535011ef28de84d779084c829361ec2c04401",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-api/zipball/269e9e24504b4f06d6645af58a564840ece30213",
+                "reference": "269e9e24504b4f06d6645af58a564840ece30213",
                 "shasum": ""
             },
             "require": {
-                "cruxoft/bolt-core": "v0.1.0",
+                "cruxoft/bolt-core": "v0.1.*",
                 "php": ">=5.6"
             },
             "require-dev": {
@@ -35,9 +35,13 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
             "authors": [
                 {
-                    "name": "Steve Adams"
+                    "name": "Steve Adams",
+                    "role": "Developer"
                 }
             ],
             "description": "RESTful API module for Bolt",
@@ -46,7 +50,7 @@
                 "bolt",
                 "rest"
             ],
-            "time": "2016-04-03 20:18:06"
+            "time": "2016-04-03 21:50:58"
         },
         {
             "name": "cruxoft/bolt-core",
