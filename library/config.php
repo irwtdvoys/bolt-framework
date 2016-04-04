@@ -1,13 +1,11 @@
 <?php
 	// General
 	define("DEPLOYMENT", "development"); // development or production
-	define("API_NAME", "ARC_BLOOD");
+	define("API_NAME", "");
 
 	// Versioning
 	define("VERSION_EXTERNAL_AUTH", "v1.6");
-	define("VERSION_EXTERNAL_SIEBEL", "qa");
-	define("VERSION_INTERNAL_FRAMEWORK", "v3.1.0");
-	define("VERSION_INTERNAL_BLOOD", "v1.8.6");
+	define("VERSION_INTERNAL_CODE", "v1.8.6");
 	define("VERSION_INTERNAL_API", "test");
 
 	if (DEPLOYMENT == "development") // Framework expects server to be setup with no errors displayed
