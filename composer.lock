@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "cruxoft/bolt-api",
-            "version": "v0.1.4",
+            "version": "v0.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-api.git",
-                "reference": "d1490b10d338f2fe43313ecfb5ad42c67a46f011"
+                "reference": "5e017563da19503ab5e0ae795269220911ad305f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-api/zipball/d1490b10d338f2fe43313ecfb5ad42c67a46f011",
-                "reference": "d1490b10d338f2fe43313ecfb5ad42c67a46f011",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-api/zipball/5e017563da19503ab5e0ae795269220911ad305f",
+                "reference": "5e017563da19503ab5e0ae795269220911ad305f",
                 "shasum": ""
             },
             "require": {
@@ -50,7 +50,7 @@
                 "bolt",
                 "rest"
             ],
-            "time": "2016-04-04 10:56:34"
+            "time": "2016-04-04 14:28:49"
         },
         {
             "name": "cruxoft/bolt-core",

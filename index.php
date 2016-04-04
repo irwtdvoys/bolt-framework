@@ -5,9 +5,8 @@
 
 	require_once(ROOT_SERVER . "library/config.php");
 
-	#spl_autoload_register(array("Cube\\Handler", "loader"));
-	#set_error_handler(array("Cube\\Handler", "error"), E_ALL & ~E_NOTICE);
-	#set_exception_handler(array("Cube\\Handler", "exception"));
+	set_error_handler(array("Bolt\\Handler", "error"), E_ALL & ~E_NOTICE);
+	set_exception_handler(array("Bolt\\Handler", "exception"));
 
 	#$dbo = new Cube\Dbo($connection);
 	$api = new Bolt\Api();
