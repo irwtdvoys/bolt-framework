@@ -22,12 +22,12 @@
 	require_once(ROOT_SERVER . "library/functions.php");
 	#require_once(ROOT_SERVER . "library/classes/Handler.php");
 
-/*	$config = array("amazon", "database", "email", "facebook", "roots", "siebel", "timeouts", "uploads");
+	$config = array("database", "roots");
 
 	foreach ($config as $next)
 	{
 		require_once(ROOT_SERVER . "library/config/" . $next . ".php");
-	}*/
+	}
 
 	/*$connection = array(
 		"type" => DB_TYPE,
