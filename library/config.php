@@ -16,11 +16,7 @@
 		ini_set("error_reporting", E_ALL & ~E_NOTICE);
 	}
 
-	define("ROOT_API", "http://shortener.cubeapis.com/test/");
-
-	#require_once(ROOT_SERVER . "library/plugins/plugins.php");
 	require_once(ROOT_SERVER . "library/functions.php");
-	#require_once(ROOT_SERVER . "library/classes/Handler.php");
 
 	$config = array("database", "roots");
 
