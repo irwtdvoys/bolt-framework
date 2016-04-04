@@ -9,20 +9,20 @@
     "packages": [
         {
             "name": "cruxoft/bolt-api",
-            "version": "v0.1.2",
+            "version": "v0.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-api.git",
-                "reference": "07aee521b072d11c40b0a2365124e4ec5582d5ee"
+                "reference": "d1490b10d338f2fe43313ecfb5ad42c67a46f011"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-api/zipball/07aee521b072d11c40b0a2365124e4ec5582d5ee",
-                "reference": "07aee521b072d11c40b0a2365124e4ec5582d5ee",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-api/zipball/d1490b10d338f2fe43313ecfb5ad42c67a46f011",
+                "reference": "d1490b10d338f2fe43313ecfb5ad42c67a46f011",
                 "shasum": ""
             },
             "require": {
-                "cruxoft/bolt-core": "v0.1.*",
+                "cruxoft/bolt-mvc": "v0.1.*",
                 "php": ">=5.6"
             },
             "require-dev": {
@@ -50,7 +50,7 @@
                 "bolt",
                 "rest"
             ],
-            "time": "2016-04-04 09:31:30"
+            "time": "2016-04-04 10:56:34"
         },
         {
             "name": "cruxoft/bolt-core",
@@ -135,6 +135,48 @@
                 "geojson"
             ],
             "time": "2016-04-03 21:58:08"
+        },
+        {
+            "name": "cruxoft/bolt-mvc",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irwtdvoys/bolt-mvc.git",
+                "reference": "96ac4fdd200aeb16e0858d320ed60dc72eba745b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-mvc/zipball/96ac4fdd200aeb16e0858d320ed60dc72eba745b",
+                "reference": "96ac4fdd200aeb16e0858d320ed60dc72eba745b",
+                "shasum": ""
+            },
+            "require": {
+                "cruxoft/bolt-core": "v0.1.*",
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bolt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Adams",
+                    "role": "Developer"
+                }
+            ],
+            "description": "MVC module for Bolt",
+            "keywords": [
+                "bolt",
+                "mvc",
+                "php"
+            ],
+            "time": "2016-04-04 10:37:08"
         }
     ],
     "packages-dev": [],
