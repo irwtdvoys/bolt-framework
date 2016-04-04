@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "cruxoft/bolt-api",
-            "version": "v0.1.1",
+            "version": "v0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-api.git",
-                "reference": "269e9e24504b4f06d6645af58a564840ece30213"
+                "reference": "07aee521b072d11c40b0a2365124e4ec5582d5ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-api/zipball/269e9e24504b4f06d6645af58a564840ece30213",
-                "reference": "269e9e24504b4f06d6645af58a564840ece30213",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-api/zipball/07aee521b072d11c40b0a2365124e4ec5582d5ee",
+                "reference": "07aee521b072d11c40b0a2365124e4ec5582d5ee",
                 "shasum": ""
             },
             "require": {
@@ -50,20 +50,20 @@
                 "bolt",
                 "rest"
             ],
-            "time": "2016-04-03 21:50:58"
+            "time": "2016-04-04 09:31:30"
         },
         {
             "name": "cruxoft/bolt-core",
-            "version": "v0.1.1",
+            "version": "v0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-core.git",
-                "reference": "ad761a3c512dfdf526bd310612ca1ae16d11d77e"
+                "reference": "a101b443e49a6e26f7207a234f8af72877e79272"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-core/zipball/ad761a3c512dfdf526bd310612ca1ae16d11d77e",
-                "reference": "ad761a3c512dfdf526bd310612ca1ae16d11d77e",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-core/zipball/a101b443e49a6e26f7207a234f8af72877e79272",
+                "reference": "a101b443e49a6e26f7207a234f8af72877e79272",
                 "shasum": ""
             },
             "require": {
@@ -75,7 +75,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Bolt\\": "src/Bolt/"
+                    "Bolt\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -90,9 +90,10 @@
             ],
             "description": "Core elements for the Bolt Framework",
             "keywords": [
+                "bolt",
                 "framework"
             ],
-            "time": "2016-04-03 21:29:10"
+            "time": "2016-04-04 10:19:32"
         },
         {
             "name": "cruxoft/bolt-geojson",
