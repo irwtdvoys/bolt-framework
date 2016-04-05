@@ -97,16 +97,16 @@
         },
         {
             "name": "cruxoft/bolt-geojson",
-            "version": "v0.1.2",
+            "version": "v0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-geojson.git",
-                "reference": "05bfea4654e3273ad2859c27c9628725d14a582f"
+                "reference": "0d726985be3dc96338a0d781175bdc6d6782a940"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-geojson/zipball/05bfea4654e3273ad2859c27c9628725d14a582f",
-                "reference": "05bfea4654e3273ad2859c27c9628725d14a582f",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-geojson/zipball/0d726985be3dc96338a0d781175bdc6d6782a940",
+                "reference": "0d726985be3dc96338a0d781175bdc6d6782a940",
                 "shasum": ""
             },
             "require": {
@@ -134,7 +134,7 @@
                 "bolt",
                 "geojson"
             ],
-            "time": "2016-04-03 21:58:08"
+            "time": "2016-04-05 16:27:32"
         },
         {
             "name": "cruxoft/bolt-mvc",
