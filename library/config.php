@@ -30,7 +30,7 @@
 		"database" => DB_NAME,
 		"username" => DB_USER,
 		"password" => DB_PASS,
-		"autoconnect" => true
+		"auto" => true
 	);*/
 
 	$_USERID = 0;
