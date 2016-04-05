@@ -54,16 +54,16 @@
         },
         {
             "name": "cruxoft/bolt-core",
-            "version": "v0.1.2",
+            "version": "v0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-core.git",
-                "reference": "a101b443e49a6e26f7207a234f8af72877e79272"
+                "reference": "e60c6352105944be1dc3728d6928556ca999094d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-core/zipball/a101b443e49a6e26f7207a234f8af72877e79272",
-                "reference": "a101b443e49a6e26f7207a234f8af72877e79272",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-core/zipball/e60c6352105944be1dc3728d6928556ca999094d",
+                "reference": "e60c6352105944be1dc3728d6928556ca999094d",
                 "shasum": ""
             },
             "require": {
@@ -93,7 +93,7 @@
                 "bolt",
                 "framework"
             ],
-            "time": "2016-04-04 10:19:32"
+            "time": "2016-04-05 10:53:59"
         },
         {
             "name": "cruxoft/bolt-geojson",
@@ -138,16 +138,16 @@
         },
         {
             "name": "cruxoft/bolt-mvc",
-            "version": "v0.1.1",
+            "version": "v0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-mvc.git",
-                "reference": "5bbe3429d1efbfbeba158141f2bed05ba6aa71db"
+                "reference": "645a67c3c27ea3777b8ab5722e5cd065a5dcce5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-mvc/zipball/5bbe3429d1efbfbeba158141f2bed05ba6aa71db",
-                "reference": "5bbe3429d1efbfbeba158141f2bed05ba6aa71db",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-mvc/zipball/645a67c3c27ea3777b8ab5722e5cd065a5dcce5e",
+                "reference": "645a67c3c27ea3777b8ab5722e5cd065a5dcce5e",
                 "shasum": ""
             },
             "require": {
@@ -176,7 +176,7 @@
                 "mvc",
                 "php"
             ],
-            "time": "2016-04-05 08:08:46"
+            "time": "2016-04-05 10:58:03"
         }
     ],
     "packages-dev": [],
