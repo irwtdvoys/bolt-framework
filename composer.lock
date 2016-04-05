@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "cruxoft/bolt-api",
-            "version": "v0.1.5",
+            "version": "v0.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-api.git",
-                "reference": "5e017563da19503ab5e0ae795269220911ad305f"
+                "reference": "513bb3c28271c2b9635beb2ec5c81c51ab9e6978"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-api/zipball/5e017563da19503ab5e0ae795269220911ad305f",
-                "reference": "5e017563da19503ab5e0ae795269220911ad305f",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-api/zipball/513bb3c28271c2b9635beb2ec5c81c51ab9e6978",
+                "reference": "513bb3c28271c2b9635beb2ec5c81c51ab9e6978",
                 "shasum": ""
             },
             "require": {
@@ -50,7 +50,7 @@
                 "bolt",
                 "rest"
             ],
-            "time": "2016-04-04 14:28:49"
+            "time": "2016-04-05 08:30:01"
         },
         {
             "name": "cruxoft/bolt-core",
@@ -138,16 +138,16 @@
         },
         {
             "name": "cruxoft/bolt-mvc",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-mvc.git",
-                "reference": "96ac4fdd200aeb16e0858d320ed60dc72eba745b"
+                "reference": "5bbe3429d1efbfbeba158141f2bed05ba6aa71db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-mvc/zipball/96ac4fdd200aeb16e0858d320ed60dc72eba745b",
-                "reference": "96ac4fdd200aeb16e0858d320ed60dc72eba745b",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-mvc/zipball/5bbe3429d1efbfbeba158141f2bed05ba6aa71db",
+                "reference": "5bbe3429d1efbfbeba158141f2bed05ba6aa71db",
                 "shasum": ""
             },
             "require": {
@@ -176,7 +176,7 @@
                 "mvc",
                 "php"
             ],
-            "time": "2016-04-04 10:37:08"
+            "time": "2016-04-05 08:08:46"
         }
     ],
     "packages-dev": [],
