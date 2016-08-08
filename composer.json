@@ -16,8 +16,8 @@
 	],
 	"require": {
 		"php": ">=5.6",
-		"cruxoft/bolt-api": "^0.2.2",
-		"cruxoft/bolt-geojson": "^0.1.5"
+		"cruxoft/bolt-api": "^0.2",
+		"cruxoft/bolt-geojson": "^0.2"
 	},
 	"autoload": {
 		"psr-4": {
