@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "321e127f90f1309d18ded5d7530ce91d",
-    "content-hash": "97a720f68f181b6f7440d15eecd144be",
+    "hash": "250aea447e5573cd2f6b0b8da75f29de",
+    "content-hash": "cf459c6a8da41616036f0cf70aa7f9d5",
     "packages": [
         {
             "name": "cruxoft/bolt-api",
-            "version": "0.2.3",
+            "version": "0.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-api.git",
-                "reference": "06bfa38d38192c152d162864d09665bec9dc6882"
+                "reference": "9bec7be48072b8f39fc191c0ccd456d14177bd5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-api/zipball/06bfa38d38192c152d162864d09665bec9dc6882",
-                "reference": "06bfa38d38192c152d162864d09665bec9dc6882",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-api/zipball/9bec7be48072b8f39fc191c0ccd456d14177bd5f",
+                "reference": "9bec7be48072b8f39fc191c0ccd456d14177bd5f",
                 "shasum": ""
             },
             "require": {
@@ -50,20 +50,20 @@
                 "bolt",
                 "rest"
             ],
-            "time": "2016-06-10 10:39:06"
+            "time": "2016-08-01 17:45:27"
         },
         {
             "name": "cruxoft/bolt-core",
-            "version": "v0.1.4",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-core.git",
-                "reference": "235d1d89394c4d5c25bf4ccbd80dba7b0a3d2c70"
+                "reference": "4267dc4f4433d079142327679c3d3a29f4ea513c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-core/zipball/235d1d89394c4d5c25bf4ccbd80dba7b0a3d2c70",
-                "reference": "235d1d89394c4d5c25bf4ccbd80dba7b0a3d2c70",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-core/zipball/4267dc4f4433d079142327679c3d3a29f4ea513c",
+                "reference": "4267dc4f4433d079142327679c3d3a29f4ea513c",
                 "shasum": ""
             },
             "require": {
@@ -93,24 +93,24 @@
                 "bolt",
                 "framework"
             ],
-            "time": "2016-04-06 13:45:55"
+            "time": "2016-08-02 08:37:46"
         },
         {
             "name": "cruxoft/bolt-geojson",
-            "version": "v0.1.5",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-geojson.git",
-                "reference": "f634a8c387e8d2a94a1f3eefe196cf1dd882f067"
+                "reference": "88542bffeaef511a202bba4345b5029790b2ed12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-geojson/zipball/f634a8c387e8d2a94a1f3eefe196cf1dd882f067",
-                "reference": "f634a8c387e8d2a94a1f3eefe196cf1dd882f067",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-geojson/zipball/88542bffeaef511a202bba4345b5029790b2ed12",
+                "reference": "88542bffeaef511a202bba4345b5029790b2ed12",
                 "shasum": ""
             },
             "require": {
-                "cruxoft/bolt-core": "v0.1.*",
+                "cruxoft/bolt-core": "^0.2",
                 "php": ">=5.6"
             },
             "type": "library",
@@ -134,24 +134,24 @@
                 "bolt",
                 "geojson"
             ],
-            "time": "2016-04-06 15:25:12"
+            "time": "2016-08-08 18:40:21"
         },
         {
             "name": "cruxoft/bolt-mvc",
-            "version": "v0.1.3",
+            "version": "0.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-mvc.git",
-                "reference": "ea61a7602b532a5fb631707c0f3a8ad3a15b3ec8"
+                "reference": "770b233e017b8d4f16b3b812205d6005af3507b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-mvc/zipball/ea61a7602b532a5fb631707c0f3a8ad3a15b3ec8",
-                "reference": "ea61a7602b532a5fb631707c0f3a8ad3a15b3ec8",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-mvc/zipball/770b233e017b8d4f16b3b812205d6005af3507b0",
+                "reference": "770b233e017b8d4f16b3b812205d6005af3507b0",
                 "shasum": ""
             },
             "require": {
-                "cruxoft/bolt-core": "v0.1.*",
+                "cruxoft/bolt-core": "^v0.2",
                 "php": ">=5.6"
             },
             "type": "library",
@@ -176,7 +176,7 @@
                 "mvc",
                 "php"
             ],
-            "time": "2016-04-08 10:15:16"
+            "time": "2016-08-08 18:24:38"
         }
     ],
     "packages-dev": [],
