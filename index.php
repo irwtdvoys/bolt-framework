@@ -24,15 +24,14 @@
 	}
 	elseif ($api->route->controller == "")
 	{
-		$api->response->data = array("test" => "data");
-		/*$config = new Cube\Config();
+		$config = new App\Config();
 		$versioning = $config->versionInfo();
 
 		$api->response->data = array(
 			"name" => API_NAME,
 			"deployment" => DEPLOYMENT,
 			"versioning" => $versioning['version']
-		);*/
+		);
 	}
 
 	$api->response->output();
