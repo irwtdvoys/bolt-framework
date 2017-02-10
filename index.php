@@ -11,11 +11,15 @@
 	#$dbo = new Cube\Dbo($connection);
 	$api = new Bolt\Api();
 
+	// Add connections to api object here
+
+	$api->activate();
+
 	$controllerName = "App\\Controllers\\" . $api->route->controller;
 
 	if (class_exists($controllerName))
 	{
-		$controller = new $controllerName($dbo);
+		$controller = new $controllerName();
 
 		if (method_exists($controller, $api->route->method))
 		{
