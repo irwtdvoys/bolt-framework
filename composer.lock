@@ -4,25 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "250aea447e5573cd2f6b0b8da75f29de",
-    "content-hash": "cf459c6a8da41616036f0cf70aa7f9d5",
+    "content-hash": "cc3e3246f3242546e50a7d8055c12846",
     "packages": [
         {
             "name": "cruxoft/bolt-api",
-            "version": "0.2.5",
+            "version": "0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-api.git",
-                "reference": "9bec7be48072b8f39fc191c0ccd456d14177bd5f"
+                "reference": "4a24b02cc8e326e0db505e87c219554e8076dcf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-api/zipball/9bec7be48072b8f39fc191c0ccd456d14177bd5f",
-                "reference": "9bec7be48072b8f39fc191c0ccd456d14177bd5f",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-api/zipball/4a24b02cc8e326e0db505e87c219554e8076dcf3",
+                "reference": "4a24b02cc8e326e0db505e87c219554e8076dcf3",
                 "shasum": ""
             },
             "require": {
-                "cruxoft/bolt-mvc": "v0.1.*",
+                "cruxoft/bolt-mvc": "^0.2",
                 "php": ">=5.6"
             },
             "require-dev": {
@@ -50,20 +49,20 @@
                 "bolt",
                 "rest"
             ],
-            "time": "2016-08-01 17:45:27"
+            "time": "2017-02-09T22:08:34+00:00"
         },
         {
             "name": "cruxoft/bolt-core",
-            "version": "0.2.0",
+            "version": "0.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-core.git",
-                "reference": "4267dc4f4433d079142327679c3d3a29f4ea513c"
+                "reference": "cb914dcdaeffedb0fb1bbd727e7c571f02f8460d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-core/zipball/4267dc4f4433d079142327679c3d3a29f4ea513c",
-                "reference": "4267dc4f4433d079142327679c3d3a29f4ea513c",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-core/zipball/cb914dcdaeffedb0fb1bbd727e7c571f02f8460d",
+                "reference": "cb914dcdaeffedb0fb1bbd727e7c571f02f8460d",
                 "shasum": ""
             },
             "require": {
@@ -93,7 +92,7 @@
                 "bolt",
                 "framework"
             ],
-            "time": "2016-08-02 08:37:46"
+            "time": "2016-12-16T17:08:13+00:00"
         },
         {
             "name": "cruxoft/bolt-geojson",
@@ -134,20 +133,20 @@
                 "bolt",
                 "geojson"
             ],
-            "time": "2016-08-08 18:40:21"
+            "time": "2016-08-08T18:40:21+00:00"
         },
         {
             "name": "cruxoft/bolt-mvc",
-            "version": "0.1.5",
+            "version": "0.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-mvc.git",
-                "reference": "770b233e017b8d4f16b3b812205d6005af3507b0"
+                "reference": "8e11f8953e6e2ad7ef4ed581fb839d1999da1805"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-mvc/zipball/770b233e017b8d4f16b3b812205d6005af3507b0",
-                "reference": "770b233e017b8d4f16b3b812205d6005af3507b0",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-mvc/zipball/8e11f8953e6e2ad7ef4ed581fb839d1999da1805",
+                "reference": "8e11f8953e6e2ad7ef4ed581fb839d1999da1805",
                 "shasum": ""
             },
             "require": {
@@ -176,7 +175,7 @@
                 "mvc",
                 "php"
             ],
-            "time": "2016-08-08 18:24:38"
+            "time": "2017-02-08T10:53:47+00:00"
         }
     ],
     "packages-dev": [],

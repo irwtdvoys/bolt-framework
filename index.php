@@ -11,11 +11,15 @@
 	#$dbo = new Cube\Dbo($connection);
 	$api = new Bolt\Api();
 
+	// Add connections to api object here
+
+	$api->activate();
+
 	$controllerName = "App\\Controllers\\" . $api->route->controller;
 
 	if (class_exists($controllerName))
 	{
-		$controller = new $controllerName($dbo);
+		$controller = new $controllerName();
 
 		if (method_exists($controller, $api->route->method))
 		{
@@ -24,15 +28,14 @@
 	}
 	elseif ($api->route->controller == "")
 	{
-		$api->response->data = array("test" => "data");
-		/*$config = new Cube\Config();
+		$config = new App\Config();
 		$versioning = $config->versionInfo();
 
 		$api->response->data = array(
 			"name" => API_NAME,
 			"deployment" => DEPLOYMENT,
 			"versioning" => $versioning['version']
-		);*/
+		);
 	}
 
 	$api->response->output();
