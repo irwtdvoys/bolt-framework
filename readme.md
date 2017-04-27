@@ -1,3 +1,3 @@
-# bolt-framework (v0.1.2)
+# bolt-framework (v0.1.3)
 
 The Bolt Framework
