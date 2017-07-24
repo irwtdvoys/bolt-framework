@@ -1,8 +1,7 @@
 <?php
-	require("vendor/autoload.php");
+	define("ROOT_SERVER", __DIR__ . "/../");
 
-	define("ROOT_SERVER", __DIR__ . "/");
-
+	require_once(ROOT_SERVER . "vendor/autoload.php");
 	require_once(ROOT_SERVER . "library/config.php");
 
 	set_error_handler(array("Bolt\\Handler", "error"), E_ALL & ~E_NOTICE);
