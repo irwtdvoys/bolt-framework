@@ -1,5 +1,9 @@
-#Composer Files
-vendor
+# IDE
+/.idea/
+*.iml
 
-# IDE Files
-.idea
+# Environment
+.DS_Store
+
+# Project
+/vendor/
