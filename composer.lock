@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fc1633906f07fe48932b6963ea2a1adb",
+    "content-hash": "1e7a5b4ba8e6942a61dcdc6553af08e0",
     "packages": [
         {
             "name": "cruxoft/bolt-api",
@@ -173,6 +173,45 @@
                 "php"
             ],
             "time": "2018-02-16T09:25:58+00:00"
+        },
+        {
+            "name": "cruxoft/dump",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irwtdvoys/dump.git",
+                "reference": "2ebea0d915c3ed129a13086835ac679052cd732b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irwtdvoys/dump/zipball/2ebea0d915c3ed129a13086835ac679052cd732b",
+                "reference": "2ebea0d915c3ed129a13086835ac679052cd732b",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cruxoft\\": "src/"
+                },
+                "files": [
+                    "src/dump.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Adams",
+                    "email": "irwtdvoys@gmail.com"
+                }
+            ],
+            "description": "A system for generating structure information about nested variables for use including screen display",
+            "time": "2018-02-15T16:42:49+00:00"
         }
     ],
     "packages-dev": [],
