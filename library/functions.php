@@ -1,22 +1,9 @@
 <?php
 	function dump($object)
 	{
-		if ($object === true)
-		{
-			$object = "true (boolean)";
-		}
-		elseif ($object === false)
-		{
-			$object = "false (boolean)";
-		}
-		elseif ($object === null)
-		{
-			$object = "null";
-		}
+		Cruxoft\dump($object);
 
-		echo("<pre class=\"dump\">");
-		print_r($object);
-		echo("</pre>");
+		return null;
 	}
 
 	function truncateVersion($value, $parts = 3, $keepPrefix = true)
