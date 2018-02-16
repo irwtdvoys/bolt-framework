@@ -28,7 +28,7 @@
 
 	function remote_file_exists($url)
 	{
-		$curl = new \Cube\Curl();
+		$curl = new Bolt\Curl();
 
 		$options = array(
 			CURLOPT_URL => $url,
