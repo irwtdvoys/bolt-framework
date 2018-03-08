@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1e7a5b4ba8e6942a61dcdc6553af08e0",
+    "content-hash": "9013f5ec0bd3246d48bf6673e28739a0",
     "packages": [
         {
             "name": "cruxoft/bolt-api",
@@ -50,16 +50,16 @@
         },
         {
             "name": "cruxoft/bolt-core",
-            "version": "0.4.0",
+            "version": "0.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-core.git",
-                "reference": "ab6b3ec8b69052d374209a4a13ae89ab6904eaa2"
+                "reference": "5732059c9070fbbaa247c216dc86d40b675785fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-core/zipball/ab6b3ec8b69052d374209a4a13ae89ab6904eaa2",
-                "reference": "ab6b3ec8b69052d374209a4a13ae89ab6904eaa2",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-core/zipball/5732059c9070fbbaa247c216dc86d40b675785fe",
+                "reference": "5732059c9070fbbaa247c216dc86d40b675785fe",
                 "shasum": ""
             },
             "require": {
@@ -89,24 +89,24 @@
                 "bolt",
                 "framework"
             ],
-            "time": "2018-02-15T18:30:01+00:00"
+            "time": "2018-03-07T15:22:50+00:00"
         },
         {
             "name": "cruxoft/bolt-geojson",
-            "version": "0.5.1",
+            "version": "0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-geojson.git",
-                "reference": "3c49625aa68fc8133768138f57069fa1b1587d0f"
+                "reference": "7c7cffd4a1dcc8b3331133136c94b71dcafd3048"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-geojson/zipball/3c49625aa68fc8133768138f57069fa1b1587d0f",
-                "reference": "3c49625aa68fc8133768138f57069fa1b1587d0f",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-geojson/zipball/7c7cffd4a1dcc8b3331133136c94b71dcafd3048",
+                "reference": "7c7cffd4a1dcc8b3331133136c94b71dcafd3048",
                 "shasum": ""
             },
             "require": {
-                "cruxoft/bolt-core": "^0.4.0"
+                "cruxoft/bolt-core": "^0.5"
             },
             "require-dev": {
                 "phpunit/phpunit": "5.5.*"
@@ -132,24 +132,24 @@
                 "bolt",
                 "geojson"
             ],
-            "time": "2018-02-16T16:37:20+00:00"
+            "time": "2018-03-07T11:43:56+00:00"
         },
         {
             "name": "cruxoft/bolt-mvc",
-            "version": "0.4.0",
+            "version": "0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-mvc.git",
-                "reference": "c2541f45b8dd98b7c873842d74d4942385a9de41"
+                "reference": "150921804658c90b25c418eccabb46048640a39f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-mvc/zipball/c2541f45b8dd98b7c873842d74d4942385a9de41",
-                "reference": "c2541f45b8dd98b7c873842d74d4942385a9de41",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-mvc/zipball/150921804658c90b25c418eccabb46048640a39f",
+                "reference": "150921804658c90b25c418eccabb46048640a39f",
                 "shasum": ""
             },
             "require": {
-                "cruxoft/bolt-core": "^v0.4"
+                "cruxoft/bolt-core": "^v0.5"
             },
             "type": "library",
             "autoload": {
@@ -173,20 +173,20 @@
                 "mvc",
                 "php"
             ],
-            "time": "2018-02-16T09:25:58+00:00"
+            "time": "2018-03-07T11:25:53+00:00"
         },
         {
             "name": "cruxoft/dump",
-            "version": "0.1.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/dump.git",
-                "reference": "2ebea0d915c3ed129a13086835ac679052cd732b"
+                "reference": "2f0ccbb5b686ff2a119676ef5c076eb27683e3b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/dump/zipball/2ebea0d915c3ed129a13086835ac679052cd732b",
-                "reference": "2ebea0d915c3ed129a13086835ac679052cd732b",
+                "url": "https://api.github.com/repos/irwtdvoys/dump/zipball/2f0ccbb5b686ff2a119676ef5c076eb27683e3b8",
+                "reference": "2f0ccbb5b686ff2a119676ef5c076eb27683e3b8",
                 "shasum": ""
             },
             "require-dev": {
@@ -212,7 +212,7 @@
                 }
             ],
             "description": "A system for generating structure information about nested variables for use including screen display",
-            "time": "2018-02-15T16:42:49+00:00"
+            "time": "2018-03-07T17:05:00+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
