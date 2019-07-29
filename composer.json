@@ -15,9 +15,11 @@
 		}
 	],
 	"require": {
-		"cruxoft/bolt-api": "^0.7",
-		"cruxoft/bolt-geojson": "^0.6",
-		"cruxoft/dump": "^0.2"
+		"cruxoft/bolt-api": "^0.8.0",
+		"cruxoft/bolt-geojson": "^0.7.0"
+	},
+	"require-dev": {
+		"cruxoft/dump": "^0.2.0"
 	},
 	"autoload": {
 		"psr-4": {
