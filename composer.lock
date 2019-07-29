@@ -1,28 +1,31 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9013f5ec0bd3246d48bf6673e28739a0",
+    "content-hash": "03cf09bb77eae9c10f4602cedaed1b8d",
     "packages": [
         {
             "name": "cruxoft/bolt-api",
-            "version": "0.7.1",
+            "version": "0.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-api.git",
-                "reference": "8d0b455c61ccebd9f98a4dffaa311273ad7adb39"
+                "reference": "088c60ce2df764e0b86ed304b1e93551e3118bbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-api/zipball/8d0b455c61ccebd9f98a4dffaa311273ad7adb39",
-                "reference": "8d0b455c61ccebd9f98a4dffaa311273ad7adb39",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-api/zipball/088c60ce2df764e0b86ed304b1e93551e3118bbe",
+                "reference": "088c60ce2df764e0b86ed304b1e93551e3118bbe",
                 "shasum": ""
             },
             "require": {
-                "cruxoft/bolt-mvc": "^0.4",
+                "cruxoft/bolt-mvc": "^0.5.0",
                 "ralouphie/getallheaders": "^2.0"
+            },
+            "require-dev": {
+                "cruxoft/dump": "^0.2.2"
             },
             "type": "library",
             "autoload": {
@@ -46,20 +49,20 @@
                 "bolt",
                 "rest"
             ],
-            "time": "2018-03-05T14:55:43+00:00"
+            "time": "2019-07-26T19:13:11+00:00"
         },
         {
             "name": "cruxoft/bolt-core",
-            "version": "0.5.3",
+            "version": "0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-core.git",
-                "reference": "5732059c9070fbbaa247c216dc86d40b675785fe"
+                "reference": "78ce7b9cb2bd868d3d80c2a82dc7fc0fa04532d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-core/zipball/5732059c9070fbbaa247c216dc86d40b675785fe",
-                "reference": "5732059c9070fbbaa247c216dc86d40b675785fe",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-core/zipball/78ce7b9cb2bd868d3d80c2a82dc7fc0fa04532d2",
+                "reference": "78ce7b9cb2bd868d3d80c2a82dc7fc0fa04532d2",
                 "shasum": ""
             },
             "require": {
@@ -89,24 +92,24 @@
                 "bolt",
                 "framework"
             ],
-            "time": "2018-03-07T15:22:50+00:00"
+            "time": "2018-05-08T13:05:41+00:00"
         },
         {
             "name": "cruxoft/bolt-geojson",
-            "version": "0.6.1",
+            "version": "0.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/irwtdvoys/bolt-geojson.git",
-                "reference": "7c7cffd4a1dcc8b3331133136c94b71dcafd3048"
+                "reference": "08d154cd4cb535717ce93ff167e1c96fad751a62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-geojson/zipball/7c7cffd4a1dcc8b3331133136c94b71dcafd3048",
-                "reference": "7c7cffd4a1dcc8b3331133136c94b71dcafd3048",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-geojson/zipball/08d154cd4cb535717ce93ff167e1c96fad751a62",
+                "reference": "08d154cd4cb535717ce93ff167e1c96fad751a62",
                 "shasum": ""
             },
             "require": {
-                "cruxoft/bolt-core": "^0.5"
+                "cruxoft/bolt-core": "^0.6"
             },
             "require-dev": {
                 "phpunit/phpunit": "5.5.*"
@@ -132,24 +135,68 @@
                 "bolt",
                 "geojson"
             ],
-            "time": "2018-03-07T11:43:56+00:00"
+            "time": "2018-04-03T15:02:55+00:00"
         },
         {
-            "name": "cruxoft/bolt-mvc",
-            "version": "0.4.1",
+            "name": "cruxoft/bolt-json",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/irwtdvoys/bolt-mvc.git",
-                "reference": "150921804658c90b25c418eccabb46048640a39f"
+                "url": "https://github.com/irwtdvoys/bolt-json.git",
+                "reference": "e9b6f3c2e1b6cf74cfc457bfbd86b15b3ed8cc37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/bolt-mvc/zipball/150921804658c90b25c418eccabb46048640a39f",
-                "reference": "150921804658c90b25c418eccabb46048640a39f",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-json/zipball/e9b6f3c2e1b6cf74cfc457bfbd86b15b3ed8cc37",
+                "reference": "e9b6f3c2e1b6cf74cfc457bfbd86b15b3ed8cc37",
                 "shasum": ""
             },
             "require": {
-                "cruxoft/bolt-core": "^v0.5"
+                "cruxoft/bolt-core": "^0.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bolt\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Adams",
+                    "role": "Developer"
+                }
+            ],
+            "description": "JSON wrapper library built on the Bolt Framework",
+            "keywords": [
+                "bolt",
+                "json"
+            ],
+            "time": "2018-05-09T16:24:43+00:00"
+        },
+        {
+            "name": "cruxoft/bolt-mvc",
+            "version": "0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irwtdvoys/bolt-mvc.git",
+                "reference": "a737d677787827e0fb69f68a542a5a4ce4a85a5d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irwtdvoys/bolt-mvc/zipball/a737d677787827e0fb69f68a542a5a4ce4a85a5d",
+                "reference": "a737d677787827e0fb69f68a542a5a4ce4a85a5d",
+                "shasum": ""
+            },
+            "require": {
+                "cruxoft/bolt-core": "^v0.6.0",
+                "cruxoft/bolt-json": "^0.2.0"
+            },
+            "require-dev": {
+                "cruxoft/dump": "^0.2.2"
             },
             "type": "library",
             "autoload": {
@@ -173,46 +220,7 @@
                 "mvc",
                 "php"
             ],
-            "time": "2018-03-07T11:25:53+00:00"
-        },
-        {
-            "name": "cruxoft/dump",
-            "version": "0.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/irwtdvoys/dump.git",
-                "reference": "2f0ccbb5b686ff2a119676ef5c076eb27683e3b8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/irwtdvoys/dump/zipball/2f0ccbb5b686ff2a119676ef5c076eb27683e3b8",
-                "reference": "2f0ccbb5b686ff2a119676ef5c076eb27683e3b8",
-                "shasum": ""
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^7.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Cruxoft\\": "src/"
-                },
-                "files": [
-                    "src/dump.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Steve Adams",
-                    "email": "irwtdvoys@gmail.com"
-                }
-            ],
-            "description": "A system for generating structure information about nested variables for use including screen display",
-            "time": "2018-03-07T17:05:00+00:00"
+            "time": "2019-05-01T20:48:33+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -255,7 +263,47 @@
             "time": "2016-02-11T07:05:27+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "cruxoft/dump",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/irwtdvoys/dump.git",
+                "reference": "0010b53abb5fa90eadffe59a23af3b90649e4a13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/irwtdvoys/dump/zipball/0010b53abb5fa90eadffe59a23af3b90649e4a13",
+                "reference": "0010b53abb5fa90eadffe59a23af3b90649e4a13",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cruxoft\\": "src/"
+                },
+                "files": [
+                    "src/dump.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Adams",
+                    "email": "irwtdvoys@gmail.com"
+                }
+            ],
+            "description": "A system for generating structure information about nested variables for use including screen display",
+            "time": "2018-03-14T14:14:53+00:00"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
